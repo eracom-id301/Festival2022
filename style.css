@@ -8,6 +8,7 @@ body {
 	justify-content: center;
 	height: 100vh;
 	margin: 0;
+	background-image: url('final_affiche_bleu_horizontal');
 }
 #grid{
 	display: flex;
