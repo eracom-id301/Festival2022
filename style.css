@@ -2,22 +2,26 @@
 body {
 	align-items: center;
 	font-family: "Bluu", Arial, sans-serif;
-	background-color: #c76e08;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	height: 100vh;
 	margin: 0;
-	background-image: url('final_affiche_bleu_horizontal');
+
 }
 #grid{
 	display: flex;
     flex-direction: row;
     align-items: center;
+	z-index: 800;
 }
 
 .info, .img {
     flex: 1;
+}
+
+.info {
+	z-index: 800;
 }
 
 
@@ -54,8 +58,7 @@ section {
   grid-column-end: 3;
 }
 .img {
-	height: 600px;
-	width: 600px;
+
 	grid-row-start: 1;
 	grid-row-end: 4;
 	grid-column-start: 3;

@@ -1,12 +1,15 @@
 body {
 	align-items: center;
 	font-family: "Bluu", Arial, sans-serif;
-	background-color: #c76e08;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	height: 100vh;
 	margin: 0;
+	background-image: url('assets/img/final_affiche_bleu_horizontal\ \(1\).png') !important;
+	background-size: cover;
+	overflow: hidden;
+	color: yellow !important;
 }
 #grid{
 	display: flex;
@@ -29,6 +32,7 @@ h1 {
   grid-row-end: 3;
   grid-column-start: 1;
   grid-column-end: 2;
+  text-transform: uppercase;
 	
 }
 
@@ -43,6 +47,28 @@ h2 {
 	
 }
 
+.forme.gauche {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.forme.droite {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.back {
+	position: fixed;
+	top: 5vh;
+	right: 3vh;
+	z-index: 100000;
+	text-decoration: none;
+	font-size: 50px;
+	color: inherit;
+}
+
 section {
 	max-width: 80vw;
 	text-align: left;
@@ -52,8 +78,7 @@ section {
   grid-column-end: 3;
 }
 .img {
-	height: 600px;
-	width: 600px;
+	
 	grid-row-start: 1;
 	grid-row-end: 4;
 	grid-column-start: 3;
