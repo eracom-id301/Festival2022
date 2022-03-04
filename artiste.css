@@ -1,6 +1,12 @@
+@font-face {
+	font-family: "oxygen";
+	src: url("./assets/font/Oxygen-Bold.ttf"), 
+	 url("./assets/font/Oxygen-Regular.ttf"),
+	 url("./assets/font/Oxygen-Thin.ttf");
+}
+
 body {
 	align-items: center;
-	font-family: "Bluu", Arial, sans-serif;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -27,7 +33,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 8vw;
+	font-size: 7vw;
 	grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
