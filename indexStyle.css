@@ -2,7 +2,12 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-
+@font-face {
+	font-family: "oxygen";
+	src: url("./assets/font/Oxygen-Bold.ttf"), 
+	 url("./assets/font/Oxygen-Regular.ttf"),
+	 url("./assets/font/Oxygen-Thin.ttf");
+}
 body {
   margin: 0;
 }
