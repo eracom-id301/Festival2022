@@ -178,11 +178,16 @@ iframe {
     width: 90%;
   }
 
-  img.hassani {
+  .img.hassani {
     margin-bottom: 60vh;
   }
 
-  img {
+  .info.medine {
+    margin-top: 15vh;
+    margin-bottom: 0;
+  }
+
+  .info img {
     margin-top: -7vh;
   }
 
