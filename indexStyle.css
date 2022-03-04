@@ -10,6 +10,7 @@
 }
 body {
   margin: 0;
+  font-size: 20px;
 }
 
 .background {
@@ -20,13 +21,13 @@ body {
 }
 
 .frame {
-  width: 20vw;
+  width: 35vw;
   position: fixed;
   z-index: 200;
 }
 
 .up {
-  top: 0;
+  top: -10vh;
 }
 
 .bottom {
@@ -37,10 +38,6 @@ body {
   right: 0;
 }
 
-.left {
-  left: 0;
-}
-
 .artiste {
   position: fixed;
   z-index: 100;
@@ -48,18 +45,17 @@ body {
   transition: filter 1s;
   cursor: pointer;
 }
-
 .artiste:hover,
 .artiste:focus {
   filter: grayscale(0);
-  transform: scale(120%);
+  transform: scale(110%);
   transition: transform 1s;
   z-index: 500;
 }
 
 .dua {
   top: 49vh;
-  right: 12vw;
+  right: 18vw;
 }
 .medine {
   top: 46vh;
@@ -70,7 +66,7 @@ body {
   left: 21vw;
 }
 .rolando {
-  bottom: 37vh;
+  bottom: 35vh;
   right: 130vh;
 }
 .hassani {
