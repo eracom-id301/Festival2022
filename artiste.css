@@ -118,7 +118,7 @@ footer img:not(:last-child) {
 }
 
 iframe {
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 
@@ -151,6 +151,10 @@ iframe {
   .info.david {
     margin-top: 27vh;
     margin-bottom: 0;
+  }
+
+  iframe {
+	  position: relative;
   }
 
   .info.dua {
