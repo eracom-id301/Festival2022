@@ -45,7 +45,7 @@ h1 {
 
 h2 {
 	text-align: bottom;
-	font-size: 2rem;
+	font-size: 1.3rem;
 	line-height: 1.25;
 	grid-row-start: 3;
   grid-row-end: 3;
@@ -63,7 +63,8 @@ h2 {
 .forme.droite {
 	position: absolute;
 	top: 0;
-	right: 0;
+	
+	margin-top: 7vmin;
 }
 
 .back {
@@ -84,23 +85,47 @@ section {
   grid-column-start: 1;
   grid-column-end: 3;
 }
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+		
+	}
+	50% {
+		transform: translatey(-50px);
+		
+	}
+	100% {
+		transform: translatey(0px);
+		
+		
+	}
+}
+
 .img {
-	
 	grid-row-start: 1;
 	grid-row-end: 4;
-	grid-column-start: 3;
+	grid-column-start: 2;
 	grid-column-end: 3;
 	max-height: 90vh; /* limite la hauteur à 90% de l'écran */
 	justify-self: stretch;
 	object-fit: cover;
+	animation: float 6s ease-in-out infinite;
+	transform: translatey(0px), translateX(0px);
+	
+  }
+  
+  .info{
+	  z-index:800 ;
+	  margin-bottom: 12vmin;
   }
 
-footer {
-	bottom: 0;
-	position: fixed;
-	padding: 10vmin;
-}
 
 footer img:not(:last-child) {
 	margin-right: 20px;
+}
+
+iframe{
+	position: absolute;
+	bottom: 0;
 }
