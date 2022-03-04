@@ -9,7 +9,7 @@ header {
 }
 
 .param {
-  z-index: 2;
+  z-index: 200000;
   position: fixed;
   top: 0;
   right: 0;
@@ -17,15 +17,19 @@ header {
   overflow-x: hidden;
   overflow-y: auto;
   width: 600px;
-  background: black;
+  background: white;
   transition: 1s transform;
   padding: 25px;
+}
+
+.param iframe {
+  width: 100% !important;
 }
 
 .param a:not(.close),
 .param p {
   font-size: 25px;
-  color: yellow;
+  color: black;
   text-decoration: none;
   display: block;
   font-size: 55px;
@@ -65,7 +69,7 @@ header {
 .close {
   font-size: 5vw;
   text-decoration: none;
-  color: yellow;
+  color: black;
   position: fixed;
   top: 3vh;
   right: 50px;
@@ -80,7 +84,7 @@ header {
 .open a {
   font-size: 8vw;
   text-decoration: none;
-  color: yellow;
+  color: white;
   margin-left: 92vw;
 }
 .aPropos {
@@ -90,7 +94,7 @@ header {
   font-size: 2rem;
 }
 .param h2 {
-  color: yellow;
+  color: black;
   font-size: 4rem;
 }
 
