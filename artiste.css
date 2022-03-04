@@ -118,7 +118,7 @@ footer img:not(:last-child) {
 }
 
 iframe {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
 
