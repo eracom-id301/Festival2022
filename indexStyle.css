@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.frame {
+  width: 20vw;
+  position: fixed;
+  z-index: 200;
+}
+
+.up {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.artiste {
+  position: fixed;
+  z-index: 100;
+  filter: grayscale(100);
+  transition: filter 1s;
+  cursor: pointer;
+}
+
+.artiste:hover,
+.artiste:focus {
+  filter: grayscale(0);
+  z-index: 500;
+}
+
+.dua {
+  top: 49vh;
+  right: 12vw;
+}
+.medine {
+  top: 46vh;
+  right: 75vw;
+}
+.david {
+  top: 46vh;
+  left: 21vw;
+}
+.rolando {
+  bottom: 37vh;
+  right: 130vh;
+}
+.hassani {
+  bottom: 43vh;
+  right: 8vw;
+}
