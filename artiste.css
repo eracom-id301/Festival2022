@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 11vw;
+	font-size: 8vw;
 	grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 1;
