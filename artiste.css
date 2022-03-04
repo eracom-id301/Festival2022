@@ -146,13 +146,40 @@ iframe {
     display: none;
   }
   .info.david {
-    margin-top: 13vh;
+    margin-top: 15vh;
     margin-bottom: 0;
   }
 
   .info.dua {
-    margin-top: 9vh;
+    margin-top: 2vh;
     margin-bottom: 0;
+    position: fixed;
+    margin: 4vh;
+  }
+
+  .info.dua h2 {
+    margin: 3vmin;
+    margin-top: 20vh;
+    margin-right: 20vw;
+  }
+
+  .img.dua {
+    margin-top: 10vh;
+  }
+
+  .info.rolando {
+    margin-top: 15vh;
+    margin-bottom: 0;
+  }
+
+  .info.hassani {
+    position: fixed;
+    top: 25vh;
+    width: 90%;
+  }
+
+  img.hassani {
+    margin-bottom: 60vh;
   }
 
   img {
