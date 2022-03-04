@@ -125,6 +125,7 @@ iframe {
     top: 20px;
     right: 60px;
     color: yellow;
+    display: none;
   }
   body {
     width: 100vw;
