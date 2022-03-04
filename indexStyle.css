@@ -39,7 +39,6 @@ body {
   transition: filter 1s;
   cursor: pointer;
 }
-
 .artiste:hover,
 .artiste:focus {
   filter: grayscale(0);
