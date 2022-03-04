@@ -5,6 +5,10 @@
     url("./assets/font/Oxygen-Thin.ttf");
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: oxygen, serif;
   align-items: center;
@@ -99,6 +103,7 @@ section {
   grid-column-start: 2;
   grid-column-end: 3;
   max-height: 90vh; /* limite la hauteur à 90% de l'écran */
+  height: 200pc;
   justify-self: stretch;
   object-fit: cover;
   animation: float 6s ease-in-out infinite;
@@ -129,7 +134,7 @@ iframe {
   }
   body {
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - calc(100vh - 100%));
   }
 
   #grid {
